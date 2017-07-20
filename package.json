@@ -1,0 +1,30 @@
+{
+  "name": "generationbox",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/ex-navigation": "~3.0.0",
+    "@expo/samples": "~1.0.3",
+    "expo": "17.0.0",
+    "exponent-server-sdk": "^2.3.1",
+    "react": "^16.0.0-alpha.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "react-native-calendars": "^1.4.0",
+    "react-native-chart": "^1.0.8-beta",
+    "react-native-elements": "^0.13.0",
+    "react-native-highcharts": "^1.0.1",
+    "react-native-infinite-scroll-view": "^0.4.3",
+    "react-native-vector-icons": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest-expo": "~1.0.1"
+  }
+}
